@@ -1,0 +1,22 @@
+body {
+    background-color: #ffc0cb;
+    align-items: center;
+    justify-content: center;
+}
+
+.name, .recipe-name, .subheading {
+    color: #a07da7;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.ingredients, p, .directions {
+    color: #ffffff;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
