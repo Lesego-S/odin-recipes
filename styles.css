@@ -4,7 +4,7 @@ body {
     justify-content: center;
 }
 
-.name, .recipe-name, .subheading {
+., .recipe-name, .subheading {
     color: #a07da7;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
