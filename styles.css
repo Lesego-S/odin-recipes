@@ -9,7 +9,7 @@ body {
 
 div.header {
     text-align: center;
-    color: #bb9166;
+    color: #b4773a;
     opacity: 0.75;
     text-align: center;
     display: block;
@@ -23,7 +23,7 @@ div.header {
 }
 
 .content {
-    color: #aa835b;
+    color: #b4773a;
     text-align: center;
     padding-top: 40px;
     font-family:'Courier New', Courier, monospace;
