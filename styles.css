@@ -20,7 +20,7 @@ body {
 }
 
 .header.split-left {
-    background-color:#f0ffff;
+    background-color:#e6fcfc;
     flex-direction: colomn;
     align-items: center;
     justify-content: center;
@@ -40,8 +40,8 @@ header.split-left.logo {
 .header.split-left h1 {
     flex: 1; 
     align-items: center;
-    font-size: 1.5em;
-    color:#54e9da;
+    font-size: 2em;
+    color:#15B5B0;
     font-weight: 90px;
 }
 
