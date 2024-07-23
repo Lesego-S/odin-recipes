@@ -1,103 +1,21 @@
+/* Universal Styles */
 
-*,
-*::before,
-*::after {
+* {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 body {
-   display: flex;
-   margin: 0;
-   height: 100vh;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.split-left, .split-right {
-    flex: 1;
-    overflow: auto;
-}
+/* Split-layout Styles for index.html */
 
-.header.split-left {
-    background-color:#e6fcfc;
-    flex-direction: colomn;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-}
-
-header.split-left.logo {
-    max-width: 80%;
-    height: auto;
-    margin-bottom: 40px;
-    width: 20px;
-    align-self: flex-start;
-    background-blend-mode: lighten;
-}
-
-.header.split-left h1 {
-    flex: 1; 
-    align-items: center;
-    font-size: 2em;
-    color:#15B5B0;
-    font-weight: 90px;
-}
-
-.split-right {
+body.split-layout {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f7f3e37e;
+    margin: 0;
+    height: 100vh;
 }
 
-.content {
-    flex: 1;
-    display: flex;
-    align-items: center;
-}
-
-.menu {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.content h2 {
-    border-bottom: 1px solid #6DECE0;
-    padding-bottom: 30px;
-    font-size: 1.5em;
-    color: #15B5B0;
-    text-align: center;
-    padding-top: 150px;
-}
-
-.menu {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 40px;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #FBE698;
-    padding: 10px 20px;
-    margin: 10px;
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: 1px solid #15B5B0;
-    border-radius: 5px;
-    background-color: #fa9a9f;
-
-}
-
-a:hover, a:active {
-    background: #6DECE0;
-    color: #fa9a9f;
-    border: 5px dotted #FBE698;
-  }
+.split-left, .split-right
