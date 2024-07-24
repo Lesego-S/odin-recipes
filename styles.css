@@ -18,4 +18,141 @@ body.split-layout {
     height: 100vh;
 }
 
-.split-left, .split-right
+.split-left, .split-right {
+    flex: 1;
+    flex-direction: column;
+}
+
+.split-left {
+    flex: 1;
+    background-color: #E6FCFC;
+    text-align: center;
+}
+
+.headline-index {
+    color: #15aca7;
+}
+
+.split-right {
+    flex: 1;
+    padding: 20px;
+    background-color: #fafce6;
+    text-align: center;
+}
+
+.content, .title, .menu {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 70px;
+}
+
+.title {
+    color:#15aca7;
+    border-bottom: 1px solid #6DECE0;
+    line-height: 24px;
+    padding-bottom: 30px;
+    margin: 10px;
+}
+
+.menu {
+    padding: 1px 200px;
+    position: relative;
+    top: -15px;
+    text-align: center;
+    width: 100%;
+}
+
+.menu a {
+    background-color: #e4adb0;
+    border: 3px solid #67dfd3;
+    border-radius: 3px;
+    color:#f7de85;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.menu a:hover {
+    background-color: #62d3c8;
+    border: 2px dotted #f7de85;
+    color:#ce9295;
+
+}
+
+/* Recipe Pages Style */
+
+body.recipe-body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #E6FCFC;
+    color: #333;
+    margin: 0;
+    padding: 0
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #15aca7;
+}
+
+.header .headline {
+    font-size: 3em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+header p {
+    font-size: 3em;
+    color: #555;
+    margin: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.container h2 {
+    font-size: 2em;
+    color: #333;
+    border-bottom: 2px solid #62d3c8;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.container .ingredients,
+.container .directions {
+    list-style-position: inside;
+    padding: 0;
+}
+
+.container .ingredients li,
+.container .directions li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.container .directions li {
+    margin-left: 20px;
+}
+
+.container .directions li::marker {
+    font-weight: bold;
+    color: #555;
+}
